@@ -47,8 +47,8 @@ $ sudo docker run \
       /graphhopper/start.sh
 $ sudo docker logs -f graphhopper-monaco
 ...
-2014-10-04 11:21:30,110 [main] INFO  graphhopper.http.DefaultModule - loaded graph at:/data/berlin-latest.osm-gh, source:/data/berlin-latest.osm.pbf, acceptWay:car, class:LevelGraphStorage
-2014-10-04 11:21:30,611 [main] INFO  graphhopper.http.GHServer - Started server at HTTP 8989
+2016-08-10 05:20:31,564 [main] INFO  graphhopper.http.DefaultModule - loaded graph at:/data/monaco-latest.osm-gh, source:/data/monaco-latest.osm.pbf, acceptWay:car, class:LevelGraphStorage
+2016-08-10 05:20:32,106 [main] INFO  graphhopper.http.GHServer - Started server at HTTP 8989
 ```
 
 Check if web interface is available: [http://localhost:8990/](http://localhost:8990/)
