@@ -40,7 +40,7 @@ $ sudo docker run \
       --name=graphhopper-monaco \
       -v /private/osm-data/:/data \
       -p 8990:8989 \
-      bghtrbb/uio \
+      graphhopper \
       /graphhopper/start.sh
 $ sudo docker logs -f graphhopper-monaco
 ...
