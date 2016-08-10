@@ -1,7 +1,4 @@
-# dockerized-graphhopper
-Dockerized graphhopper instance for routing 
-
-# Graphhopper Dockerfile
+# Dockerized Graphhopper
 
 This Dockerfile builds image with grapphopper web app installed. You need to provide .pbf files through /data mount point. Please refer to instructions bellow.
 
